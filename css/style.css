@@ -1365,10 +1365,10 @@ nav .sb-navigation li a {
   font-weight: 400;
   height: 100%;
   color: #231e41;
-  font-size: 14px;
+  font-size: 18px;
   transition: 0.3s ease-in-out;
 }
-nav .sb-navigation li a:after,
+/* nav .sb-navigation li a:after,
 nav .sb-navigation li a:before {
   content: "";
   position: absolute;
@@ -1380,7 +1380,7 @@ nav .sb-navigation li a:before {
   border-radius: 50%;
   background-color: #f5c332;
   transform: scale(0);
-}
+} */
 nav .sb-navigation li a:after {
   left: auto;
   right: 15px;
@@ -2943,7 +2943,7 @@ faq
   left: 0;
   top: 0;
   z-index: 2;
-  background-color: #f5c332;
+  background-color: #d9b176;
   transition: 0.3s ease-in-out;
 }
 .sb-faq .sb-plus-minus-toggle:after,
@@ -3361,11 +3361,11 @@ background
 }
 
 .sb-bg-3 {
-  background-color: #f9fafc;
+  /* background-color: #f9fafc; */
   width: 63%;
   height: 100%;
   position: absolute;
-  border-left: solid 30px #ffffff;
+  /* border-left: solid 30px #ffffff; */
   top: 0;
   left: 0;
 }
