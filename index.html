@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#F5C332">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/ui/Do Chai 1.png" type="image/x-icon">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="css/plugins/datepicker.css">
+  <!-- mapbox css -->
+  <link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- starbelly css -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <!-- page title -->
+  <title>Do Chai | DoChai, be anything if you try!!!</title>
+</head>
+
+<style>
+  .swiper-android .swiper-slide,
+  .swiper-ios .swiper-slide,
+  .swiper-wrapper {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+  }
+</style>
+
+<body>
+  <!-- app wrapper -->
+  <div class="sb-app">
+    <!-- preloader -->
+    <div class="sb-preloader">
+      <div class="sb-preloader-bg"></div>
+      <div class="sb-preloader-body">
+        <div class="sb-loading mt-5">
+          <img src="img/ui/Do Chai 1.png" alt width="200">
+          <!-- <div class="sb-percent"><span class="sb-preloader-number" data-count="101">00</span><span>%</span></div> -->
+        </div>
+        <div class="sb-loading-bar">
+          <div class="sb-bar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end -->
+    <!-- click effect -->
+    <div class="sb-click-effect"></div>
+    <!-- loader -->
+    <div class="sb-load"></div>
+    <!-- top bar -->
+    <div class="sb-top-bar-frame">
+      <div class="sb-top-bar-bg"></div>
+      <div class="container">
+        <div class="sb-top-bar">
+          <a href="index.html" class="sb-logo-frame">
+            <!-- logo img -->
+            <img src="img/ui/Do Chai 1.png" alt="Do Chai" style="width: 100px;">
+          </a>
+          <!-- menu -->
+          <div class="sb-right-side">
+            <nav id="sb-dynamic-menu" class="sb-menu-transition">
+              <ul class="sb-navigation">
+                <li class="sb-active sb-has-children">
+                  <a href="index.html">Home</a>
+
+                </li>
+                <li class="sb-has-children">
+                  <a href="about-2.html">Pages</a>
+                  <ul>
+                    <li><a href="about-1.html">About 1</a></li>
+                    <li><a href="about-2.html">About 2</a></li>
+                    <li><a href="blog-1.html">Blog style 1</a></li>
+                    <li><a href="blog-2.html">Blog style 2</a></li>
+                    <li><a href="blog-3.html">Blog style 3</a></li>
+                    <li><a href="publication-1.html">Publication 1</a></li>
+                    <li><a href="publication-2.html">Publication 2</a></li>
+                    <li><a href="publication-3.html">Publication 3</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery-2.html">Gallery 2</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="sb-has-children">
+                  <a href="menu-1.html">Menu</a>
+                  <ul>
+                    <li><a href="menu-1.html">Menu style 1</a></li>
+                    <li><a href="menu-2.html">Menu style 2</a></li>
+                    <li><a href="menu-3.html">Menu style 3</a></li>
+                    <li><a href="menu-4.html">Menu style 4</a></li>
+                    <li><a href="menu-5.html">Menu style 5</a></li>
+                    <li><a href="menu-6.html">Menu style 6</a></li>
+                  </ul>
+                </li>
+                <li class="sb-has-children">
+                  <a href="shop-1.html">Shop</a>
+                  <ul>
+                    <li><a href="shop-1.html">Shop style 1</a></li>
+                    <li><a href="shop-2.html">Shop style 2</a></li>
+                    <li><a href="shop-list-1.html">Shop list 1</a></li>
+                    <li><a href="shop-list-2.html">Shop list 2</a></li>
+                    <li><a href="product.html">Product page</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          
+          </div>
+        </div>
+      </div>
+      <!-- info bar -->
+      <div class="sb-info-bar">
+        <div class="sb-infobar-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Contact</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <ul class="sb-list sb-mb-30">
+            <li><b>Address:</b><span>Montréal, 1510 Rue Sauvé</span></li>
+            <li><b>Working hours:</b><span>09:00 - 23:00</span></li>
+            <li><b>Phone:</b><span>+02 (044) 756-X6-52</span></li>
+            <li><b>Email:</b><span>starbelly@mail.com</span></li>
+          </ul>
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Instagram</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <ul class="sb-instagram sb-mb-30">
+            <li><a href="#."><img src="img/instagram/1.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/2.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/3.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/4.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/5.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/6.jpg" alt="instagram"></a></li>
+          </ul>
+          <hr>
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Latest publications</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <a href="publication-1.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/1.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">Simple Homemade Tomato Soup</h5>
+              <p class="sb-text sb-text-sm">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Libero optio, sed
+                expedita.</p>
+            </div>
+          </a>
+          <a href="publication-1.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/2.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">Thai Coconut Soup with Tofu and Rice</h5>
+              <p class="sb-text sb-text-sm">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Libero optio, sed
+                expedita.</p>
+            </div>
+          </a>
+          <a href="publication-1.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/3.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">21 Things You Should Absolutely Be Buying at
+                ALDI</h5>
+              <p class="sb-text sb-text-sm">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Libero optio, sed
+                expedita.</p>
+            </div>
+          </a>
+        </div>
+        <div class="sb-info-bar-footer">
+          <ul class="sb-social">
+            <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- info bar end -->
+      <!-- minicart -->
+      <div class="sb-minicart">
+        <div class="sb-minicart-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Your order.</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/4.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Saumon Gravlax</h4>
+              <div class="sb-price"><sub>$</sub> 9</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/1.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Chevrefrit au miel</h4>
+              <div class="sb-price"><sub>$</sub> 14</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/2.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Croustillant de poisson</h4>
+              <div class="sb-price"><sub>$</sub> 4</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/3.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Stracciatella</h4>
+              <div class="sb-price"><sub>$</sub> 11</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/5.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Carpaccio de daurade</h4>
+              <div class="sb-price"><sub>$</sub> 19</div>
+            </div>
+          </a>
+        </div>
+        <div class="sb-minicart-footer">
+          <!-- button -->
+          <a href="cart.html" class="sb-btn sb-btn-gray sb-btn-text">
+            <span>View order</span>
+          </a>
+          <!-- button end -->
+          <!-- button -->
+          <a href="checkout.html" class="sb-btn sb-btn-text">
+            <span>Checkout</span>
+          </a>
+          <!-- button end -->
+        </div>
+      </div>
+      <!-- minicart end -->
+    </div>
+    <!-- top bar end -->
+
+    <!-- dynamic content -->
+    <div id="sb-dynamic-content" class="sb-transition-fade">
+
+      <!-- banner -->
+      <section class="sb-banner">
+        <div class="sb-bg-1">
+          <div></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- main title -->
+              <div class="sb-main-title-frame">
+                <div class="sb-main-title">
+                  <span class="sb-suptitle sb-mb-30">Welcome to Chaitech</span>
+                  <h2 class="sb-mb-30">Your Chai, Your Time, Your Way!</h2>
+                  <p class="sb-text sb-text-lg sb-mb-30">At Chaitech, we’re more than just a chai delivery service.
+                    We’re a
+                    movement. We’re committed to revolutionizing the way chai is enjoyed
+                    by blending the rich traditions of India with cutting-edge technology.
+                    Whether you’re a corporate employee, an individual at home, or a
+                    bustling tea vendor, Chaitech is here to serve you.</p>
+                  <!-- button -->
+                  <a href="menu-1.html" class="sb-btn">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/menu.svg" alt="icon">
+                    </span>
+                    <span>Our menu</span>
+                  </a>
+                  <!-- button end -->
+                  <!-- button -->
+                  <a href="about-1.html" class="sb-btn sb-btn-2 sb-btn-gray">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/arrow.svg" alt="icon">
+                    </span>
+                    <span>About us</span>
+                  </a>
+                  <!-- button end -->
+                </div>
+              </div>
+              <!-- main title end -->
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-ilustration-fix">
+                <div class="sb-illustration-1-2">
+                  <img src="img/illustrations/Vector2.png" alt="food" class="sb-food-1">
+                  <img src="img/illustrations/vector1.png" alt="food" class="sb-food-2">
+                  <img src="img/illustrations/vector3.png" alt="food" class="sb-food-3">
+                  <div class="sb-illu-dialog-1"><span>😋</span> wahh
+                    Chai...</div>
+                  <div class="sb-illu-dialog-2"><span>🥰</span> Do Chai
+                    Vendors</div>
+                  <div class="sb-cirkle-1">
+                    <img src="img/ui/Do Chai 1.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="sb-cirkle-2"></div>
+                  <div class="sb-cirkle-3"></div>
+                  <div class="sb-cirkle-4"></div>
+                  <div class="sb-cirkle-5"></div>
+                  <img src="img/illustrations/3.1.png" alt="phones" class="sb-pik-1">
+                  <img src="img/illustrations/tea.png" alt="phones" class="sb-pik-2">
+                  <img src="img/illustrations/3.2.png" alt="phones" class="sb-pik-3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+      <!-- promo -->
+      <section class="sb-p-0-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2 class="sb-mb-40">Why Choose <br>DoChai?</h2>
+                  <p class="sb-text sb-text-lg sb-mb-30">At Chaitech, we’re more than just a chai delivery service.
+                    We’re a
+                    movement. We’re committed to revolutionizing the way chai is enjoyed
+                    by blending the rich traditions of India with cutting-edge technology.
+                    Whether you’re a corporate employee, an individual at home, or a
+                    bustling tea vendor, Chaitech is here to serve you.</p>
+
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2 class="sb-mb-40">Ready to join the chai revolution?</h2>
+                  <a href="menu-1.html" class="sb-btn">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/menu.png" alt="icon">
+                    </span>
+                    <span>Be a User</span>
+                  </a>
+                  <!-- button end -->
+                  <!-- button -->
+                  <a href="about-1.html" class="sb-btn sb-btn-2 sb-btn-gray">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/arrow.png" alt="icon">
+                    </span>
+                    <span>Be a Vendor</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/illustrations/do-chai.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
+      <!-- promo end -->
+
+      <!-- About text -->
+      <section class="sb-about-text sb-p-90-0">
+        <div class="sb-bg-1" style="margin-top: 90px">
+          <div></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="sb-illustration-2 sb-mb-90">
+                <div class="sb-interior-frame">
+                  <img src="img/gallery/vector1.png" alt="interior" class="sb-interior" style="object-position: center">
+                </div>
+                <div class="sb-square"></div>
+                <div class="sb-cirkle-1">
+                  <img src="img/ui/Do Chai 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="sb-cirkle-2">
+                  <img src="img/ui/Do Chai 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="sb-cirkle-3"></div>
+                <div class="sb-cirkle-4"></div>
+                <div class="sb-experience">
+                  <div class="sb-exp-content">
+                    <p class="sb-h1 sb-mb-10">29</p>
+                    <p class="sb-h3">Years Experiense</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center sb-mb-60">
+              <h2 class="sb-mb-20">Why we have build <br>DoChai?</h2>
+              <p class="sb-text sb-mb-20">Well, If I talk about me that would
+                be 29+ years. And one day I wake up and
+                asked myself
+                the same question I asked you. In this world of despair and
+                uncertainties something that is
+                so certain for so long and with short dedication makes up your
+                morning and probably add
+                lot of value to your functioning must be HIGHLY APPRECIATED.
+                So, I build DOCHAI.</p>
+
+              <h2 class="sb-mb-20 mt-3">Our Mission</h2>
+              <p class="sb-text sb-mb-10">Our goal is to create a seamless chai delivery service that caters to
+                every chai lover in India and around the globe. We envision a world
+                where enjoying your favorite chai is as simple as clicking a button.</p>
+
+              <h2 class="sb-mb-20 mt-3">Who We Are</h2>
+              <p class="sb-text sb-mb-10">Our goal is to create a seamless chai delivery service that caters to
+                every chai lover in India and around the globe. We envision a world
+                where enjoying your favorite chai is as simple as clicking a button.</p>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="sb-features-item sb-features-item-sm sb-mb-30">
+                    <div class="sb-number">01</div>
+                    <div class="sb-feature-text">
+                      <h4 class="sb-mb-15">Chai Lovers</h4>
+                      <p class="sb-text sb-text-sm">Our passion for chai drives everything we do.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sb-features-item sb-features-item-sm sb-mb-30">
+                    <div class="sb-number">02</div>
+                    <div class="sb-feature-text">
+                      <h4 class="sb-mb-15">Promoters of a Healthy Lifestyle</h4>
+                      <p class="sb-text sb-text-sm">We believe in the power of a
+                        good cup of chai to enhance well-being.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sb-features-item sb-features-item-sm sb-mb-30">
+                    <div class="sb-number">03</div>
+                    <div class="sb-feature-text">
+                      <h4 class="sb-mb-15">Technologists and Farmers</h4>
+                      <p class="sb-text sb-text-sm">Combining the best of both worlds to
+                        bring you a superior chai experience.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <img src="img/ui/signature.png" alt="Signature" class="sb-signature sb-mb-30"> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About text end -->
+      <!-- categories -->
+      <section class="sb-p-90-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                <div class="sb-card-body">
+                  <div class="sb-category-icon">
+                    <img src="img/categories/1.png" alt="icon">
+                  </div>
+                  <div class="sb-card-descr">
+                    <h3 class="sb-mb-10">Chai</h3>
+                    <p class="sb-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                <div class="sb-card-body">
+                  <div class="sb-category-icon">
+                    <img src="img/categories/2.png" alt="icon">
+                  </div>
+                  <div class="sb-card-descr">
+                    <h3 class="sb-mb-10">Main dishes</h3>
+                    <p class="sb-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                <div class="sb-card-body">
+                  <div class="sb-category-icon">
+                    <img src="img/categories/3.png" alt="icon">
+                  </div>
+                  <div class="sb-card-descr">
+                    <h3 class="sb-mb-10">Drinks</h3>
+                    <p class="sb-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                <div class="sb-card-body">
+                  <div class="sb-category-icon">
+                    <img src="img/categories/4.png" alt="icon">
+                  </div>
+                  <div class="sb-card-descr">
+                    <h3 class="sb-mb-10">Desserts</h3>
+                    <p class="sb-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categories end -->
+
+      <!-- menu section 1 -->
+      <section class="sb-menu-section sb-p-90-60">
+        <div class="sb-bg-1">
+          <div></div>
+        </div>
+        <div class="container">
+          <!-- filter -->
+          <div class="sb-filter mb-30">
+            <!-- <a href="#." data-filter="*" class="sb-filter-link sb-active">All dishes</a> -->
+            <!-- <a href="#." data-filter=".starters" class="sb-filter-link sb-active">Do Chai Users</a>
+      <a href="#." data-filter=".main-dishes" class="sb-filter-link">Do Chai Vendors</a> -->
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link sb-filter-link active" id="nav-home-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                aria-selected="true">Users</button>
+              <button class="nav-link sb-filter-link" id="nav-profile-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                aria-selected="false">Vendors</button>
+
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div class="row">
+                  <div class="col-lg-6 align-self-center">
+                    <div class="sb-cta-text">
+                      <h1 class="sb-mb-15"><span class="sb-title-lg">Do</span>Chai <sup>User</sup></h1>
+                      <p class="sb-text sb-mb-30">*Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo
+                        modi.</p>
+                      <a href="product.html" class="sb-btn">
+                        <span class="sb-icon">
+                          <img src="img/ui/icons/app.png" alt="icon">
+                        </span>
+                        <span>Join our platform</span>
+                      </a>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="sb-illustration-6">
+                      <img src="img/illustrations/burger-2.png" alt="burger" class="sb-burger">
+                      <div class="sb-cirkle-1"></div>
+                      <div class="sb-cirkle-2"></div>
+                      <div class="sb-cirkle-3"></div>
+                      <div class="sb-cirkle-4"></div>
+                      <div class="sb-cirkle-5"></div>
+                      <img src="img/illustrations/2.svg" alt="phones" class="sb-pik-2">
+                      <img src="img/illustrations/3.svg" alt="phones" class="sb-pik-3">
+                    </div>
+                  </div>
+                  <!-- features -->
+                  <section class="sb-features mt-5 sb-p-0-60">
+                    <div class="container">
+                      <div class="row mt-5">
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">01</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Discover New Vendors
+                              </h3>
+                              <p class="sb-text">Explore a variety of chai options from
+                                local vendors.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">02</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Enjoy Seamless Service</h3>
+                              <p class="sb-text">From ordering to delivery, we ensure a
+                                smooth experience.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">03</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Stay Healthy</h3>
+                              <p class="sb-text">Our quality chai promotes a healthy lifestyle.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </section>
+                  <!-- features end -->
+                   <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/download.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Download App</h3>
+                            
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/store.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Select Vendor(s)</h3>
+                            
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/credit-card.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Cash Or Card</h3>
+                            
+                          </div>
+                          
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/shopping-cart.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Start Ordering</h3>
+                            
+                          </div>
+                          
+                        </a>
+                      </div>
+
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/speedometer.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Chai On Time</h3>
+                            
+                          </div>
+                          
+                        </a>
+                      </div>
+                    </div>
+                   </div>
+                  
+
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                tabindex="0">
+                <div class="row">
+                  <div class="col-lg-6 align-self-center">
+                    <div class="sb-cta-text">
+                      <h1 class="sb-mb-15"><span class="sb-title-lg">Do</span>Chai <sup>Vendor</sup></h1>
+                      <p class="sb-text sb-mb-30">*Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo
+                        modi.</p>
+                      <!-- button -->
+                      <a href="product.html" class="sb-btn">
+                        <span class="sb-icon">
+                          <img src="img/ui/icons/join.png" alt="icon">
+                        </span>
+                        <span>Join our platform</span>
+                      </a>
+                      <!-- button end -->
+                      <!-- button -->
+                      <!-- <a href="menu-2.html" class="sb-btn sb-btn-2 sb-btn-gray">
+                        <span class="sb-icon">
+                          <img src="img/ui/icons/menu.svg" alt="icon">
+                        </span>
+                        <span>Menu</span>
+                      </a> -->
+                      <!-- button end -->
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="sb-illustration-6">
+                      <img src="img/illustrations/burger-2.png" alt="burger" class="sb-burger">
+                      <div class="sb-cirkle-1"></div>
+                      <div class="sb-cirkle-2"></div>
+                      <div class="sb-cirkle-3"></div>
+                      <div class="sb-cirkle-4"></div>
+                      <div class="sb-cirkle-5"></div>
+                      <img src="img/illustrations/2.svg" alt="phones" class="sb-pik-2">
+                      <img src="img/illustrations/3.svg" alt="phones" class="sb-pik-3">
+                    </div>
+                  </div>
+                  <section class="sb-features mt-5 sb-p-0-60">
+                    <div class="container">
+                      <div class="row mt-5">
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">01</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Increased Visibility
+                              </h3>
+                              <p class="sb-text">Reach more customers and grow your
+                                business.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">02</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Easy Management</h3>
+                              <p class="sb-text">Our app makes order management a breeze.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="sb-features-item sb-mb-60">
+                            <div class="sb-number">03</div>
+                            <div class="sb-feature-text">
+                              <h3 class="sb-mb-15">Community Support</h3>
+                              <p class="sb-text">Be part of a network that values and
+                                promotes local businesses.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </section>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/signup.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">SignUp Here</h3>
+                            
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/profile.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Submit Requested**<br>Information</h3>
+                            
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/download.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Download App</h3>
+                            
+                          </div>
+                          
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/info.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Inform Your Customer</h3>
+                            
+                          </div>
+                          
+                        </a>
+                      </div>
+
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/platter.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Start Serving
+                          </div>
+                          
+                        </a>
+                      </div>
+
+                      <div class="col-lg-2">
+                        <a href="shop-list-1.html" class="sb-categorie-card sb-categorie-card-2 sb-mb-30">
+                          <div class="sb-card-body">
+                            <div class="sb-category-icon">
+                              <img src="img/ui/icons/idea.gif" alt="icon">
+                            </div>
+                            
+                          </div>
+                          <div class="sb-card-descr text-center">
+                            <h3 class="sb-mb-10">Be the ​Change</div>
+                          
+                        </a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <!-- filter end -->
+
+        </div>
+      </section>
+      <!-- menu end -->
+      <!-- call to action -->
+      <!-- <section class="sb-call-to-action">
+  <div class="sb-bg-3"></div>
+  <div class="container">
+    
+  </div>
+</section> -->
+      <!-- call to action end -->
+
+
+      <!-- short menu -->
+      <section class="sb-short-menu sb-p-0-90">
+        <div class="sb-bg-2">
+          <div></div>
+        </div>
+        <div class="container">
+          <div class="sb-group-title sb-mb-30">
+            <div class="sb-left sb-mb-30">
+              <h2 class="sb-mb-30">DoChai<span> Use Cases</span> We Offer</h2>
+              <p class="sb-text">Consectetur numquam poro nemo
+                veniam<br>eligendi rem adipisci quo modi.</p>
+            </div>
+            <div class="sb-right sb-mb-30">
+              <!-- slider navigation -->
+              <div class="sb-slider-nav">
+                <div class="sb-prev-btn sb-short-menu-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="sb-next-btn sb-short-menu-next"><i class="fas fa-arrow-right"></i></div>
+              </div>
+              <!-- slider navigation end -->
+              <!-- button -->
+              <!-- <a href="menu-1.html" class="sb-btn">
+                <span class="sb-icon">
+                  <img src="img/ui/icons/menu.svg" alt="icon">
+                </span>
+                <span>Full menu</span>
+              </a> -->
+              <!-- button end -->
+            </div>
+          </div>
+          <div class="swiper-container sb-short-menu-slider-3i">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a data-fancybox="menu" data-no-swup href="img/menu/vector1.png" class="sb-menu-item">
+                  <div class="sb-cover-frame">
+                    <img src="img/menu/vector1.png" alt="product">
+                  </div>
+                  <div class="sb-card-tp text-center">
+                    <h3 class="sb-card-title">OFFICE COMPLEXES</h3>
+                    <div class="sb-price"></div>
+                  </div>
+                  <div class="sb-description">
+                    <!-- <p class="sb-text sb-mb-15"><span>tomatoes</span>,
+                      <span>nori</span>, <span>feta cheese</span>,
+                      <span>mushrooms</span>, <span>rice noodles</span>,
+                      <span>corn</span>, <span>shrimp</span>.
+                    </p>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul> -->
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a data-fancybox="menu" data-no-swup href="img/menu/vector2.png" class="sb-menu-item">
+                  <div class="sb-cover-frame">
+                    <img src="img/menu/vector2.png" alt="product">
+
+                  </div>
+                  <div class="sb-card-tp text-center">
+                    <h3 class="sb-card-title">FOOD COURTS</h3>
+                    <div class="sb-price"></div>
+                  </div>
+                  <div class="sb-description">
+                    <!-- <p class="sb-text sb-mb-15"><span>tomatoes</span>,
+                      <span>nori</span>, <span>feta cheese</span>,
+                      <span>mushrooms</span>, <span>rice noodles</span>,
+                      <span>corn</span>, <span>shrimp</span>.
+                    </p>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul> -->
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a data-fancybox="menu" data-no-swup href="img/menu/vector3.png" class="sb-menu-item">
+                  <div class="sb-cover-frame">
+                    <img src="img/menu/vector3.png" alt="product">
+
+                  </div>
+                  <div class="sb-card-tp text-center">
+                    <h3 class="sb-card-title">HOTEL CHAINS</h3>
+                    <div class="sb-price"></div>
+                  </div>
+                  <div class="sb-description">
+                    <!-- <p class="sb-text sb-mb-15"><span>tomatoes</span>,
+                      <span>nori</span>, <span>feta cheese</span>,
+                      <span>mushrooms</span>, <span>rice noodles</span>,
+                      <span>corn</span>, <span>shrimp</span>.
+                    </p>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul> -->
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- short menu end -->
+
+      <!-- revievs -->
+      <section class="sb-reviews sb-p-0-90">
+        <div class="container">
+          <div class="sb-group-title sb-mb-30">
+            <div class="sb-left sb-mb-30">
+              <h2 class="sb-mb-30">Reviews <span>about</span> us</h2>
+              <p class="sb-text">Consectetur numquam poro nemo
+                veniam<br>eligendi rem adipisci quo modi.</p>
+            </div>
+            <div class="sb-right sb-mb-30">
+              <!-- slider navigation -->
+              <div class="sb-slider-nav">
+                <div class="sb-prev-btn sb-reviews-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="sb-next-btn sb-reviews-next"><i class="fas fa-arrow-right"></i></div>
+              </div>
+              <!-- slider navigation end -->
+              <!-- button -->
+              <a href="reviews.html" class="sb-btn">
+                <span class="sb-icon">
+                  <img src="img/ui/icons/dialog.svg" alt="icon">
+                </span>
+                <span>All revievs</span>
+              </a>
+              <!-- button end -->
+            </div>
+          </div>
+          <div class="swiper-container sb-reviews-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sb-review-card">
+                  <div class="sb-review-header sb-mb-15">
+                    <h4 class="sb-mb-15">Very tasty</h4>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="sb-text sb-mb-15">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quis fugiat
+                    totam nobis quas unde excepturi inventore possimus
+                    laudantium provident, rem eligendi velit. Aut
+                    molestias, ipsa itaque laborum, natus
+                    tempora, ut soluta animi ducimus dignissimos deserunt
+                    doloribus in reprehenderit rem accusamus!
+                    Quibusdam labore, aliquam dolor harum!</p>
+                  <div class="sb-author-frame">
+                    <div class="sb-avatar-frame">
+                      <img src="img/faces/1.jpg" alt="Guest">
+                    </div>
+                    <h4>Emma Newman</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sb-review-card">
+                  <div class="sb-review-header sb-mb-15">
+                    <h4 class="sb-mb-15">I have lunch here every day</h4>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="sb-text sb-mb-15">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quis fugiat
+                    totam nobis quas unde excepturi inventore possimus
+                    laudantium provident, rem eligendi velit. Aut
+                    molestias, ipsa itaque laborum, natus
+                    tempora, ut soluta animi ducimus dignissimos deserunt
+                    doloribus in reprehenderit rem accusamus!
+                    Quibusdam labore, aliquam dolor harum!</p>
+                  <div class="sb-author-frame">
+                    <div class="sb-avatar-frame">
+                      <img src="img/faces/2.jpg" alt="Guest">
+                    </div>
+                    <h4>Paul Trueman</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sb-review-card">
+                  <div class="sb-review-header sb-mb-15">
+                    <h4 class="sb-mb-15">Great service</h4>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li class="sb-empty"><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="sb-text sb-mb-15">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quis fugiat
+                    totam nobis quas unde excepturi inventore possimus
+                    laudantium provident, rem eligendi velit. Aut
+                    molestias, ipsa itaque laborum, natus
+                    tempora, ut soluta animi ducimus dignissimos deserunt
+                    doloribus in reprehenderit rem accusamus!
+                    Quibusdam labore, aliquam dolor harum!</p>
+                  <div class="sb-author-frame">
+                    <div class="sb-avatar-frame">
+                      <img src="img/faces/3.jpg" alt="Guest">
+                    </div>
+                    <h4>Viktoria Freeman</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sb-review-card">
+                  <div class="sb-review-header sb-mb-15">
+                    <h4 class="sb-mb-15">Starbelly is amazing!</h4>
+                    <ul class="sb-stars">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <p class="sb-text sb-mb-15">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quis fugiat
+                    totam nobis quas unde excepturi inventore possimus
+                    laudantium provident, rem eligendi velit. Aut
+                    molestias, ipsa itaque laborum, natus
+                    tempora, ut soluta animi ducimus dignissimos deserunt
+                    doloribus in reprehenderit rem accusamus!
+                    Quibusdam labore, aliquam dolor harum!</p>
+                  <div class="sb-author-frame">
+                    <div class="sb-avatar-frame">
+                      <img src="img/faces/4.jpg" alt="Guest">
+                    </div>
+                    <h4>Audrey Oldman</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- revievs end -->
+      <!-- call to action -->
+      <section class="sb-call-to-action">
+        <div class="sb-bg-3"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="sb-cta-text">
+                <h2 class="sb-h1 sb-mb-30">Download our mobile app.</h2>
+                <p class="sb-text sb-mb-30">Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.</p>
+                <a href="#." target="_blank" data-no-swup class="sb-download-btn"><img src="img/buttons/1.svg"
+                    alt="img"></a>
+                <a href="#." target="_blank" data-no-swup class="sb-download-btn"><img src="img/buttons/2.svg"
+                    alt="img"></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-illustration-3">
+                <img src="img/illustrations/phones.png" alt="phones" class="sb-phones">
+                <div class="sb-cirkle-1"></div>
+                <div class="sb-cirkle-2"></div>
+                <div class="sb-cirkle-3"></div>
+                <div class="sb-cirkle-4"></div>
+                <img src="img/illustrations/1.svg" alt="phones" class="sb-pik-1">
+                <img src="img/illustrations/2.svg" alt="phones" class="sb-pik-2">
+                <img src="img/illustrations/3.svg" alt="phones" class="sb-pik-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action end -->
+      <!-- faq 1 -->
+      <section class="sb-p-90-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="sb-mb-90">
+                <h2 class="sb-cate-title">Frequently Asked Questions</h2>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <ul class="sb-faq">
+                <li>
+                  <div class="sb-question">
+                    <h4>What is Chaitech?</h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text">Chaitech is a revolutionary app that delivers your
+                    favorite chai from local vendors directly to your desk or doorstep.</div>
+                </li>
+                <li>
+                  <div class="sb-question">
+                    <h4>How do I become a user?</h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text">Simply download the app, select your vendor,
+                    choose your payment method, and start ordering.
+                  </div>
+                </li>
+                <li>
+                  <div class="sb-question">
+                    <h4>How do I register as a vendor?</h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text">Sign up on our platform, submit the
+                    necessary information, download the app, and start serving your
+                    customers.</div>
+                </li>
+                <li>
+                  <div class="sb-question">
+                    <h4>Is there any cost to join as a vendor?</h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text"> No, joining as a vendor on
+                    Chaitech is completely free.
+                  </div>
+                </li>
+                <li>
+                  <div class="sb-question">
+                    <h4>What are the payment options available?</h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text"> We offer both cash and credit
+                    payment options for your convenience.
+
+                  </div>
+                </li>
+                <li>
+                  <div class="sb-question">
+                    <h4>How can I contact support? </h4>
+                    <span class="sb-plus-minus-toggle sb-collapsed"></span>
+                  </div>
+                  <div class="sb-answer sb-text"> For brand support, email us at
+                    support@chaitech.app or visit our support portal.
+
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- faq 1 end -->
+
+      <!-- call to action -->
+      <section class="sb-call-to-action">
+        <div class="sb-bg-3"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="sb-cta-text">
+                <h2 class="sb-h1 sb-mb-15">Free delivery service.</h2>
+                <p class="sb-text sb-mb-30">*Consectetur numquam poro nemo
+                  veniam<br>eligendi rem adipisci quo modi.</p>
+                <!-- button -->
+                <a href="shop-1.html" class="sb-btn">
+                  <span class="sb-icon">
+                    <img src="img/ui/icons/cart.svg" alt="icon">
+                  </span>
+                  <span>Order delivery</span>
+                </a>
+                <!-- button end -->
+                <!-- button -->
+                <a href="menu-1.html" class="sb-btn sb-btn-2 sb-btn-gray">
+                  <span class="sb-icon">
+                    <img src="img/ui/icons/menu.svg" alt="icon">
+                  </span>
+                  <span>Menu</span>
+                </a>
+                <!-- button end -->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-illustration-8">
+                <img src="img/illustrations/delivery.png" alt="reserved" class="sb-reserved img-fluid">
+                <div class="sb-cirkle-1"></div>
+                <div class="sb-cirkle-2"></div>
+                <div class="sb-cirkle-3"></div>
+                <div class="sb-cirkle-4"></div>
+                <div class="sb-cirkle-5"></div>
+                <img src="img/illustrations/2.svg" alt="icon" class="sb-pik-2">
+                <img src="img/illustrations/3.svg" alt="icon" class="sb-pik-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action end -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="sb-footer-frame">
+            <a href="index.html" class="sb-logo-frame">
+              <!-- logo img -->
+              <img src="img/ui/Do Chai 1.png" alt="Do Chai">
+            </a>
+            <ul class="sb-social">
+              <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <div class="sb-copy">&copy; late 2024 Do Chai. All Rights
+              Reserved.</div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+    </div>
+    <!-- dynamic content end -->
+
+    <!-- discount popup -->
+    <div class="sb-popup-frame">
+      <div class="sb-popup-body">
+        <div class="sb-close-popup">+</div>
+        <div class="sb-promo-content">
+          <div class="sb-text-frame">
+            <h3 class="sb-mb-10"><sup>-</sup> <b class="sb-h1">50</b>
+              <sup>%</sup>
+            </h3>
+            <h3 class="sb-mb-15">Discount for all* burgers!</h3>
+            <p class="sb-text sb-text-sm sb-mb-10">*Et modi itaque
+              praesentium.</p>
+            <!-- button -->
+            <a href="product.html" class="sb-btn sb-ppc">
+              <span class="sb-icon">
+                <img src="img/ui/icons/arrow.svg" alt="icon">
+              </span>
+              <span>Get it now</span>
+            </a>
+            <!-- button end -->
+          </div>
+          <div class="sb-image-frame">
+            <div class="sb-illustration-4">
+              <img src="img/illustrations/46feed119146085.6097b9d38bcb1.gif" alt="burger" class="sb-burger">
+              <div class="sb-cirkle-1"></div>
+              <div class="sb-cirkle-2"></div>
+              <div class="sb-cirkle-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- discount popup end -->
+
+  </div>
+  <!-- app wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.js"></script>
+  <!-- sticky -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- starbelly js -->
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
