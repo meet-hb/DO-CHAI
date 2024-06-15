@@ -3528,7 +3528,7 @@ illustration 1 (2)
 
 .sb-illustration-1-2 {
   position: relative;
-  padding-bottom: 110%;
+  /* padding-bottom: 110%; */
   width: 100%;
   float: right;
 }
