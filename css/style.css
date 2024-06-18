@@ -24,7 +24,10 @@ preloader
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
   /* border-radius: 50%; */
   position: absolute;
-  background-color: #fff;
+  background-color: #fff0db;
+  /* background-image: url("../img/gallery/background.png"); */
+  background-size: cover;
+  /* opacity: 0.9; */
   height: 1000px;
   width: 1000px;
   top: 20%;
@@ -1328,10 +1331,16 @@ top bar
   .sb-top-bar-frame .sb-top-bar {
     height: 90px;
   }
+  .sb-top-bar-frame .sb-top-bar .sb-logo-frame img {
+    width: 60% !important;
+  }
 }
 @media (max-width: 768px) {
   .sb-top-bar-frame .sb-top-bar {
     padding: 0 30px;
+  }
+  .sb-top-bar-frame .sb-top-bar .sb-logo-frame img {
+    width: 40%;
   }
 }
 /***************************
@@ -3337,6 +3346,31 @@ background
   left: -100%;
   transform: rotate(-30deg);
 }
+.sb-bg-4{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 250%;
+  overflow: hidden;
+}
+.sb-bg-4 div {
+  width: 100%;
+  position: relative;
+}
+.sb-bg-4 div:after {
+  content: "";
+  background: url("../img/ui/Untitled-2.png");
+  background-size: cover;
+  height: 800px;
+  width: 800px;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 70%;
+  /* border-radius: 50%; */
+  /* border: solid 200px #f9fafc; */
+}
+
 
 .sb-bg-2 {
   position: absolute;
@@ -3351,14 +3385,15 @@ background
 }
 .sb-bg-2 div:after {
   content: "";
+  background: url("../img/ui/Untitled-1.png");
   height: 1200px;
-  width: 1200px;
+  width: 1130px;
   position: absolute;
   z-index: 0;
   top: 0;
   right: -20%;
   border-radius: 50%;
-  border: solid 200px #f9fafc;
+  /* border: solid 200px #f9fafc; */
 }
 
 .sb-bg-3 {
@@ -4586,7 +4621,7 @@ illustration 9
   animation: anima1 3s 3s infinite ease-in-out;
 }
 .sb-banner{
-  background-image: url("../img/Untitled-4.png");
+  background-image: url("../img/Untitled-5.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
