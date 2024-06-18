@@ -253,6 +253,14 @@ h5 {
   h3 {
     font-size: 18px;
   }
+  .sb-illustration-9 .sb-envelope-1 {
+    position: absolute;
+    z-index: 2;
+    width: 35% !important;
+    left: -3% !important;
+    bottom: -5%;
+    animation: anima3 3s 1s infinite ease-in-out;
+  }
 }
 .sb-cate-title {
   font-size: 28px;
