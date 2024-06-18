@@ -1985,7 +1985,7 @@ call to action
   border-radius: 11px;
   display: inline-block;
   margin-right: 15px;
-  height: 55px;
+  /* height: 55px; */
   transform: scale(1.001);
   transition: 0.3s ease-in-out;
 }
