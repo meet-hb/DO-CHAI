@@ -1764,11 +1764,11 @@ banner
   justify-content: space-between;
   align-items: center;
 }
-.sb-banner.sb-banner-color {
+/* .sb-banner.sb-banner-color {
   background-color: #f9fafc;
   border-left: solid 30px #ffffff;
   border-right: solid 30px #ffffff;
-}
+} */
 
 @media (max-width: 992px) {
   .sb-banner.sb-banner-with-bg {
@@ -4048,7 +4048,7 @@ illustration 3
   object-fit: cover;
   object-position: center;
   top: 0;
-  right: -13%;
+  right: -14%;
   animation: anima3 3s infinite ease-in-out;
 }
 .sb-illustration-3 .sb-cirkle-1 {
