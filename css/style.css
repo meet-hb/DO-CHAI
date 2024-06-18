@@ -164,10 +164,10 @@ h1 {
   font-size: 72px;
   letter-spacing: -3px;
 }
-.sb-h1 span,
+/* .sb-h1 span,
 h1 span {
   background-color: #f9fafc;
-}
+} */
 
 .sb-h2,
 h2 {
@@ -175,10 +175,10 @@ h2 {
   font-size: 40px;
   letter-spacing: -2px;
 }
-.sb-h2 span,
+/* .sb-h2 span,
 h2 span {
   background-color: #f9fafc;
-}
+} */
 
 .sb-h3,
 h3 {
