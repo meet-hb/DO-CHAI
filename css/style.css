@@ -4586,9 +4586,9 @@ illustration 9
   animation: anima1 3s 3s infinite ease-in-out;
 }
 .sb-banner{
-  /* background-image: url("../img/Untitled-3.png");
-  background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-image: url("../img/Untitled-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
