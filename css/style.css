@@ -4140,8 +4140,8 @@ illustration 4
 }
 .sb-illustration-4 .sb-burger {
   position: absolute;
-  width: 55%;
-  height: 75%;
+  width: 70%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   top: 0;
