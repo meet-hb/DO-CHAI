@@ -1262,7 +1262,7 @@ wrapper
 ***************************/
 .sb-app {
   /* position: relative; */
-  /* overflow: hidden; */
+  overflow: hidden;
   background-color: #ffffff;
 }
 
