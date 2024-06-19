@@ -2100,7 +2100,7 @@ promo
   align-items: center;
   width: 55%;
   height: 100%;
-  background-color: #f9fafc;
+  /* background-color: #f9fafc; */
 }
 
 .sb-promo-frame {
@@ -4140,8 +4140,8 @@ illustration 4
 }
 .sb-illustration-4 .sb-burger {
   position: absolute;
-  width: 70%;
-  height: 100%;
+  width: 55%;
+  height: 75%;
   object-fit: cover;
   object-position: center;
   top: 0;
