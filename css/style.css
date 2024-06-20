@@ -493,7 +493,7 @@ breadcrumbs
 
 ***************************/
 .sb-breadcrumbs {
-  border: solid 2px #ffffff;
+  /* border: solid 2px #ffffff; */
   position: relative;
   overflow: hidden;
   max-width: 100%;
