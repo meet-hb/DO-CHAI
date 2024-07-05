@@ -2915,7 +2915,7 @@ team
 }
 .sb-team-member:hover .sb-photo-frame {
   overflow: hidden;
-  background-color: #f9fafc;
+  /* background-color: #f9fafc; */
   border: 2px solid #ffffff;
   position: relative;
   padding-bottom: 120%;
