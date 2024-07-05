@@ -2915,7 +2915,7 @@ team
 }
 .sb-team-member:hover .sb-photo-frame {
   overflow: hidden;
-  /* background-color: #f9fafc; */
+  background-color: #f9fafc;
   border: 2px solid #ffffff;
   position: relative;
   padding-bottom: 120%;
@@ -2934,7 +2934,7 @@ categories
 ***************************/
 .sb-categorie-card {
   display: block;
-  background-color: #f9fafc;
+  /* background-color: #f9fafc; */
   box-shadow: 0 0 0 2px #ffffff;
 }
 .sb-categorie-card .sb-card-body {
